@@ -1,13 +1,92 @@
-body {
+html,body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-color: #F3F3F3;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* ====== fonts ===== */
+
+/* ====== Dm-sans =====*/
+
+@font-face {
+  font-family: "DMSans-Black";
+  src: url("./fonts/Dm-sans/DMSans-Black.ttf");
+}
+
+@font-face {
+  font-family: "DMSans-Bold";
+  src: url("./fonts/Dm-sans/DMSans-Bold.ttf");
+}
+@font-face {
+  font-family: "DMSans-ExtraBold";
+  src: url("./fonts/Dm-sans/DMSans-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "DMSans-ExtraLight";
+  src: url("./fonts/Dm-sans/DMSans-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "DMSans-Light";
+  src: url("./fonts/Dm-sans/DMSans-Light.ttf");
+}
+@font-face {
+  font-family: "DMSans-Mediuim";
+  src: url("./fonts/Dm-sans/DMSans-Medium.ttf");
+}
+@font-face {
+  font-family: "DMSans-Regular";
+  src: url("./fonts/Manrope-Regular.ttf");
+}
+@font-face {
+  font-family: "DMSans-SemiBold";
+  src: url("./fonts/Manrope-SemiBold.ttf");
+}
+@font-face {
+  font-family: "DMSans-Thin";
+  src: url("./fonts/Dm-sans/DMSans-Thin.ttf");
+}
+
+
+
+
+
+/* ====== manrope ===== */
+
+@font-face {
+  font-family: "Manrope-Bold";
+  src: url("./fonts/Manrope-Bold.ttf");
+}
+@font-face {
+  font-family: "Manrope-ExtraBold";
+  src: url("./fonts/Manrope-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Manrope-ExtraLight";
+  src: url("./fonts/Manrope-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "Manrope-Light";
+  src: url("./fonts/Manrope-Light.ttf");
+}
+@font-face {
+  font-family: "Manrope-Medium";
+  src: url("./fonts/Manrope-Medium.ttf");
+}
+@font-face {
+  font-family: "Manrope-Regular";
+  src: url("./fonts/Manrope-Regular.ttf");
+}
+@font-face {
+  font-family: "Manrope-Semibold";
+  src: url("./fonts/Manrope-SemiBold.ttf");
 }

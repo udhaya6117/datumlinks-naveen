@@ -111,7 +111,6 @@
 
 .products-homes h1 {
   color: #212121;
-  text-align: justify;
   font-family: "Manrope-SemiBold";
   font-size: 88px;
   font-style: normal;
@@ -158,4 +157,40 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+/* client */
+
+.client-header {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.client-header .title-client {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.client-header .title-client img {
+  width: 60px;
+  height: 55px;
+}
+.client-header .title-client h2 {
+  color: #212121;
+  font-family: "Manrope-Bold";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62.022px; /* 96.91% */
+  letter-spacing: -3.2px;
+  margin: 10px 0px ;
+}
+
+.client-header p{
+  text-align: center;
+  width: 435px;
 }

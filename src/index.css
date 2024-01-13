@@ -90,3 +90,27 @@ code {
   font-family: "Manrope-Semibold";
   src: url("./fonts/Manrope-SemiBold.ttf");
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: transparent;
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #333333; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #333333; 
+  opacity: 0.8
+  ;
+}

@@ -1,0 +1,90 @@
+/* hemopage desing */
+
+.hero-contect {
+  display: flex;
+  height: 280px;
+  align-items: flex-end;
+  position: relative;
+}
+
+.hero-contect .brands-crafting {
+  font-size: 60px;
+  font-family: "Manrope-Medium";
+  font-weight: 500;
+  color: #212121;
+  font-style: normal;   
+  line-height: normal;
+}
+
+.hero-contect .paragaraf-detatils {
+  position: absolute;
+  color: #212121;
+  font-family: "Manrope-Medium";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 345px;
+  right: 20px;
+  bottom: 50px;
+}
+
+.main-img {
+  margin-top: 60px;
+}
+
+.main-img-box {
+  width: 1000px;
+  position: relative;
+}
+
+.main-img-box img {
+  width: 100%;
+}
+
+.icon-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.icon-btn {
+  background-color: #212121 !important;
+}
+.play {
+  color: #ffff;
+}
+
+.team-content p{
+color: #212121;
+font-family: "Manrope-Bold";
+font-size: 86px;
+font-weight: 700;
+width: 1000px;
+}
+.team-content{
+    display: flex;
+    justify-content: center;
+}
+.dotimg{
+    width: 150px;
+}
+
+.over-services{
+    margin-top:40px ;
+}
+
+.text-ourservices{
+    padding: 10px 20px;
+    border: 1px solid #212121;
+    border-radius: 50px;
+    color: #212121;
+
+text-align: justify;
+font-family: "Manrope-SemiBold";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 35.766px; /* 198.698% */
+letter-spacing: -0.9px;
+}

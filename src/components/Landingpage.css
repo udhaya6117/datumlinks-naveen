@@ -4,3 +4,44 @@
 .logo img {
     width: 100%;
 }
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+/* header splits */
+
+.header-split{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    width: 100%;
+}
+
+/* btn-for-qoute */
+
+.btn-for-quote button{
+    background-color: #333333;
+    font-family: "DMSans-Mediuim";
+    color: #ffff;
+    width: 108px;
+    height: 30px;
+    border: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* navigation */
+
+.header-navigations{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header-navigations div text{
+    font-family: "DMSans-Regular";
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}

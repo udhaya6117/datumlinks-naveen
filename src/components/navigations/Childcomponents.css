@@ -12,7 +12,7 @@
   font-family: "Manrope-Medium";
   font-weight: 500;
   color: #212121;
-  font-style: normal;   
+  font-style: normal;
   line-height: normal;
 }
 
@@ -55,36 +55,107 @@
   color: #ffff;
 }
 
-.team-content p{
-color: #212121;
-font-family: "Manrope-Bold";
-font-size: 86px;
-font-weight: 700;
-width: 1000px;
+.team-content p {
+  color: #212121;
+  font-family: "Manrope-Bold";
+  font-size: 86px;
+  font-weight: 700;
+  width: 1000px;
 }
-.team-content{
-    display: flex;
-    justify-content: center;
+.team-content {
+  display: flex;
+  justify-content: center;
 }
-.dotimg{
-    width: 150px;
-}
-
-.over-services{
-    margin-top:40px ;
+.dotimg {
+  width: 150px;
 }
 
-.text-ourservices{
-    padding: 10px 20px;
-    border: 1px solid #212121;
-    border-radius: 50px;
-    color: #212121;
+.over-services {
+  margin-top: 40px;
+}
 
-text-align: justify;
-font-family: "Manrope-SemiBold";
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 35.766px; /* 198.698% */
-letter-spacing: -0.9px;
+.text-ourservices {
+  padding: 10px 20px;
+  border: 1px solid #747272;
+  border-radius: 50px;
+  color: #212121;
+
+  text-align: justify;
+  font-family: "Manrope-SemiBold";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35.766px; /* 198.698% */
+  letter-spacing: -0.9px;
+}
+
+/* services */
+
+.services-homes {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.products-homes text {
+  color: rgba(33, 33, 33, 0.37);
+
+  text-align: justify;
+  font-family: "Manrope-Medium";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 7.2px;
+}
+
+.products-homes h1 {
+  color: #212121;
+  text-align: justify;
+  font-family: "Manrope-SemiBold";
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110px;
+  letter-spacing: -4.8px;
+  margin: 5px 0px;
+}
+.products-homes p {
+  color: #212121;
+  font-family: "Manrope-Medium";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 400px;
+}
+
+.products-homes-detatils {
+  padding: 0px 20px;
+}
+
+.products-imgs img {
+  width: 100%;
+}
+
+.accordion {
+  margin-top: 25px;
+}
+.header-for-AccordionSummary {
+  color: #212121 !important;
+  font-family: "Manrope-SemiBold" !important;
+  font-size: 20px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: normal !important;
+  letter-spacing: -0.48px !important;
+}
+
+.details-for-AccordionSummary {
+  color: #000;
+  font-family: "Manrope-Medium";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }

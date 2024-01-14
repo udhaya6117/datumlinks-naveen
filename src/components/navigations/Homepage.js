@@ -6,20 +6,37 @@ import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import IconButton from "@mui/material/IconButton";
 import dotparagrarf from "../../img/hemopage-imgs/Frame 29.png";
 import { styled } from "@mui/material/styles";
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import MuiAccordion from "@mui/material/Accordion";
 import MuiAccordionSummary from "@mui/material/AccordionSummary";
 import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
-import product2 from "../../img/hemopage-imgs/product-2.png"
-import product3 from "../../img/hemopage-imgs/product-3.png"
-import client from "../../img/hemopage-imgs/client-img.png"
+import product2 from "../../img/hemopage-imgs/product-2.png";
+import product3 from "../../img/hemopage-imgs/product-3.png";
+import client from "../../img/hemopage-imgs/client-img.png";
+import ImageList from "@mui/material/ImageList";
+import ImageListItem from "@mui/material/ImageListItem";
+import { Imagesforpartners } from "./Imagesforpartners";
+import work1 from "../../img/our_works/Mask group.png";
+import work2 from "../../img/our_works/Mask group (1).png";
+import work3 from "../../img/our_works/Mask group (2).png";
+import work4 from "../../img/our_works/Mask group (3).png";
+import work5 from "../../img/our_works/Mask group (4).png";
+import work6 from "../../img/our_works/Mask group (5).png";
+import stack from "../../img/Group 101.png";
+import news1 from "../../img/new-box/new1.png";
+import news2 from "../../img/new-box/news2.png";
+import news3 from "../../img/new-box/news3.png";
+import logo from "../../img/logo.png";
+import dot from "../../img/Ellipse 5.png";
+import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
+import Divider from "@mui/material/Divider";
 
 const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
 ))(({ theme }) => ({
   backgroundColor: "#F8F8F8",
-  padding:"10px",
+  padding: "10px",
   borderRadius: "5px", // Adjust the value as needed
   "&:not(:last-child)": {
     borderBottom: 0,
@@ -116,12 +133,14 @@ const Homepage = () => {
                     id="panel1d-header"
                   >
                     <Typography className="header-for-AccordionSummary">
-                    Creative Logo Design 
+                      Creative Logo Design
                     </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography className="details-for-AccordionSummary">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat.
                     </Typography>
                   </AccordionDetails>
                 </Accordion>
@@ -133,11 +152,15 @@ const Homepage = () => {
                     aria-controls="panel2d-content"
                     id="panel2d-header"
                   >
-                    <Typography className="header-for-AccordionSummary">Marketing Collateral </Typography>
+                    <Typography className="header-for-AccordionSummary">
+                      Marketing Collateral{" "}
+                    </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography className="details-for-AccordionSummary">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat.
                     </Typography>
                   </AccordionDetails>
                 </Accordion>
@@ -149,11 +172,15 @@ const Homepage = () => {
                     aria-controls="panel3d-content"
                     id="panel3d-header"
                   >
-                    <Typography className="header-for-AccordionSummary">Graphic Design </Typography>
+                    <Typography className="header-for-AccordionSummary">
+                      Graphic Design{" "}
+                    </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography className="details-for-AccordionSummary">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat.
                     </Typography>
                   </AccordionDetails>
                 </Accordion>
@@ -165,11 +192,15 @@ const Homepage = () => {
                     aria-controls="panel4d-content"
                     id="panel4d-header"
                   >
-                    <Typography className="header-for-AccordionSummary">Social Media Design </Typography>
+                    <Typography className="header-for-AccordionSummary">
+                      Social Media Design{" "}
+                    </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography className="details-for-AccordionSummary">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat.
                     </Typography>
                   </AccordionDetails>
                 </Accordion>
@@ -200,12 +231,14 @@ const Homepage = () => {
                     id="panel1d-header"
                   >
                     <Typography className="header-for-AccordionSummary">
-                    Creative Logo Design 
+                      Creative Logo Design
                     </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography className="details-for-AccordionSummary">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat.
                     </Typography>
                   </AccordionDetails>
                 </Accordion>
@@ -217,11 +250,15 @@ const Homepage = () => {
                     aria-controls="panel2d-content"
                     id="panel2d-header"
                   >
-                    <Typography className="header-for-AccordionSummary">Marketing Collateral </Typography>
+                    <Typography className="header-for-AccordionSummary">
+                      Marketing Collateral{" "}
+                    </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography className="details-for-AccordionSummary">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat.
                     </Typography>
                   </AccordionDetails>
                 </Accordion>
@@ -233,11 +270,15 @@ const Homepage = () => {
                     aria-controls="panel3d-content"
                     id="panel3d-header"
                   >
-                    <Typography className="header-for-AccordionSummary">Graphic Design </Typography>
+                    <Typography className="header-for-AccordionSummary">
+                      Graphic Design{" "}
+                    </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography className="details-for-AccordionSummary">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat.
                     </Typography>
                   </AccordionDetails>
                 </Accordion>
@@ -249,11 +290,15 @@ const Homepage = () => {
                     aria-controls="panel4d-content"
                     id="panel4d-header"
                   >
-                    <Typography className="header-for-AccordionSummary">Social Media Design </Typography>
+                    <Typography className="header-for-AccordionSummary">
+                      Social Media Design{" "}
+                    </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography className="details-for-AccordionSummary">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat.
                     </Typography>
                   </AccordionDetails>
                 </Accordion>
@@ -284,12 +329,14 @@ const Homepage = () => {
                     id="panel1d-header"
                   >
                     <Typography className="header-for-AccordionSummary">
-                    Creative Logo Design 
+                      Creative Logo Design
                     </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography className="details-for-AccordionSummary">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat.
                     </Typography>
                   </AccordionDetails>
                 </Accordion>
@@ -301,11 +348,15 @@ const Homepage = () => {
                     aria-controls="panel2d-content"
                     id="panel2d-header"
                   >
-                    <Typography className="header-for-AccordionSummary">Marketing Collateral </Typography>
+                    <Typography className="header-for-AccordionSummary">
+                      Marketing Collateral{" "}
+                    </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography className="details-for-AccordionSummary">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat.
                     </Typography>
                   </AccordionDetails>
                 </Accordion>
@@ -317,11 +368,15 @@ const Homepage = () => {
                     aria-controls="panel3d-content"
                     id="panel3d-header"
                   >
-                    <Typography className="header-for-AccordionSummary">Graphic Design </Typography>
+                    <Typography className="header-for-AccordionSummary">
+                      Graphic Design{" "}
+                    </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography className="details-for-AccordionSummary">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat.
                     </Typography>
                   </AccordionDetails>
                 </Accordion>
@@ -333,11 +388,15 @@ const Homepage = () => {
                     aria-controls="panel4d-content"
                     id="panel4d-header"
                   >
-                    <Typography className="header-for-AccordionSummary">Social Media Design </Typography>
+                    <Typography className="header-for-AccordionSummary">
+                      Social Media Design{" "}
+                    </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography className="details-for-AccordionSummary">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat.
                     </Typography>
                   </AccordionDetails>
                 </Accordion>
@@ -348,8 +407,217 @@ const Homepage = () => {
       </div>
 
       <div className="client-header">
-        <div className="title-client"><h2>Our Happy Clients</h2><img src={client} alt="img" /></div>
-         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </p>
+        <div className="title-client">
+          <h2>Our Happy Clients</h2>
+          <img src={client} alt="img" />
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore{" "}
+        </p>
+      </div>
+
+      <div className="client-logos">
+        <Container>
+          <div className="center-clienimg-box">
+            <div className="box-client">
+              <ImageList
+                sx={{ width: "100%" }}
+                className="ImageList-gap"
+                cols={5}
+              >
+                {Imagesforpartners.map((item) => (
+                  <ImageListItem className="img-client" key={item.img}>
+                    <img
+                      srcSet={item.img}
+                      src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+                      alt={item.title}
+                      loading="lazy"
+                    />
+                  </ImageListItem>
+                ))}
+              </ImageList>
+            </div>
+          </div>
+        </Container>
+      </div>
+
+      <div className="Our_Works">
+        <Container>
+          <text className="text-ourservices">Our Works</text>
+
+          <div className="our_work_header">
+            <h1>Crafted with our bear hands</h1>
+          </div>
+
+          <div className="divide-imges-ourwork">
+            <div className="work-content">
+              <div className="img-div-work">
+                <img src={work1} alt="" />
+              </div>
+              <div className="title-our-work">
+                <h3>Corntoz</h3>
+                <div>
+                  <text>Social Media</text> <text>Branding</text>{" "}
+                  <text>Web Design</text>
+                </div>
+              </div>
+            </div>
+            <div className="work-content">
+              <div className="img-div-work">
+                <img src={work2} alt="" />
+              </div>
+              <div className="title-our-work">
+                <h3>Tealive</h3>
+                <div>
+                  <text>Social Media</text> <text>Branding</text>{" "}
+                  <text>Web Design</text>
+                </div>
+              </div>
+            </div>
+            <div className="work-content">
+              <div className="img-div-work">
+                <img src={work3} alt="" />
+              </div>
+              <div className="title-our-work">
+                <h3>Creators Club</h3>
+                <div>
+                  <text>Social Media</text> <text>Branding</text>{" "}
+                  <text>Web Design</text>
+                </div>
+              </div>
+            </div>
+            <div className="work-content">
+              <div className="img-div-work">
+                <img src={work4} alt="" />
+              </div>
+              <div className="title-our-work">
+                <h3>Bell and collar</h3>
+                <div>
+                  <text>Social Media</text> <text>Branding</text>{" "}
+                  <text>Web Design</text>
+                </div>
+              </div>
+            </div>
+            <div className="work-content">
+              <div className="img-div-work">
+                <img src={work5} alt="" />
+              </div>
+              <div className="title-our-work">
+                <h3>The VP Pass</h3>
+                <div>
+                  <text>Social Media</text> <text>Branding</text>{" "}
+                  <text>Web Design</text>
+                </div>
+              </div>
+            </div>
+            <div className="work-content">
+              <div className="img-div-work">
+                <img src={work6} alt="" />
+              </div>
+              <div className="title-our-work">
+                <h3>SOL Estate</h3>
+                <div>
+                  <text>Social Media</text> <text>Branding</text>{" "}
+                  <text>Web Design</text>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </div>
+      <div className="header-stack">
+        <div className="title-client">
+          <h2>Our Tech stacks</h2>
+        </div>
+        <Container>
+          <div className="stack-block">
+            <img src={stack} alt="" />
+          </div>
+        </Container>
+      </div>
+
+      <div className="news-div">
+        <Container>
+          <div className="splite_news">
+            <text className="text-ourservices-2">Recent News</text>
+            <aside>View all article</aside>
+          </div>
+          <div className="news-content">
+            <div className="new-box">
+              <div className="img-news-box">
+                <img src={news1} alt="" />
+              </div>
+              <div className="details-for-news">
+                Our Clients Delphina raises $7.5 in seeds funding
+              </div>
+              <p>Customer stories</p>
+            </div>
+            <div className="new-box">
+              <div className="img-news-box">
+                <img src={news2} alt="" />
+              </div>
+              <div className="details-for-news">
+                Our Clients Delphina raises $7.5 in seeds funding
+              </div>
+              <p>Presentation tips</p>
+            </div>
+            <div className="new-box">
+              <div className="img-news-box">
+                <img src={news3} alt="" />
+              </div>
+              <div className="details-for-news">
+                Our Clients Delphina raises $7.5 in seeds funding
+              </div>
+              <p>Presentation design</p>
+            </div>
+          </div>
+        </Container>
+      </div>
+      <div id="footer" className="footer">
+        <Container>
+          <div className="logo-footer">
+            <img src={logo} alt="" />
+          </div>
+          <div className="project-text">
+            <li>
+              <img src={dot} alt="" />
+              Your idea deserves better
+            </li>
+            <h1>
+              Let's start a project{" "}
+              <ArrowOutwardIcon
+                className="icon-project"
+                sx={{ fontSize: 80 }}
+              />
+            </h1>
+          </div>
+
+          <div className="contantsus-details">
+            <Divider />
+            <div className="contantus-content">
+              <div>
+                <label>Reach Us</label>
+                <text>+1 (705) 996-4899</text>
+                <text>+91 9754836466</text>
+              </div>
+              <div>
+              <label>Start a coversation</label>
+                <text>Work@Outline2design.com</text>
+              </div>
+              <div>
+              <label>2024 Datum link inc, All rights reserved.</label>
+                <text>Privacy Policy</text>
+              </div>
+              <div>
+              <label>Social</label>
+                <text>Facebook</text>
+                <text>Instagram</text>
+                <text>X</text>
+              </div>
+            </div>
+          </div>
+        </Container>
       </div>
     </div>
   );

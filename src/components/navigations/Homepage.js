@@ -1,6 +1,6 @@
 import React from "react";
 import "../../components/navigations/Childcomponents.css";
-import { Container } from "@mui/material";
+import { Container, Dialog, DialogContent, DialogContentText, DialogTitle } from "@mui/material";
 import mainimg from "../../img/hemopage-imgs/Mask group.png";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import IconButton from "@mui/material/IconButton";
@@ -618,6 +618,13 @@ const Homepage = () => {
             </div>
           </div>
         </Container>
+      </div>
+      <div className="resposiveview">
+      <div className="dailog-box">
+         <div className="dailog-content">
+         No mobile view, only accessible in desktop mode currently.
+         </div>
+      </div>
       </div>
     </div>
   );

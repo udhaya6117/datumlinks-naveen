@@ -35,13 +35,85 @@
 
 .header-navigations{
     display: flex;
-    gap: 20px;
+    gap: 5px;
     align-items: center;
+}
+.header-navigations div{
+    cursor: pointer;
+    width: 80px;
+    display: grid;
+    place-items: center;
+    position: relative;
 }
 
 .header-navigations div text{
     font-family: "DMSans-Regular";
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
-    cursor: pointer;
+}
+.header-navigations div::after{
+    content: "";
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 0%;
+    height: 2px;
+    transition: 0.3s;
+    background-color: #333333;
+}
+
+.header-navigations div:hover::after{
+  width: 30%;
+}
+
+.dailog-box{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    content: "";
+    height: 100%;
+    background-color: rgba(19, 19, 19, 0.8);
+}
+.dailog-content{
+    background-color: #ffff;
+    padding: 30px;
+    border-radius: 4px;
+    font-family:"DMSans-Regular";
+    font-size: 14px;
+    position: absolute;
+    top: 30%;
+}
+
+.resposiveview{
+    display: none;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .resposiveview{
+        display:block !important;
+    }
+    
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    .resposiveview{
+        display:block !important;
+    }
+    .dailog-content{
+        top: 50%;
+        left: 50% !important;
+        transform: translate(-50% ,-50%);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .resposiveview{
+        display:block !important;
+    }
+    .dailog-content{
+        top: 50%;
+        left: 50% !important;
+        transform: translate(-50% ,-50%);
+    }
 }

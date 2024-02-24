@@ -4,6 +4,7 @@ import { Route, Routes, HashRouter } from "react-router-dom";
 import { Routingdata } from "./components/Routingdata";
 import Landingpage from "./components/Landingpage";
 import Homepage from "./components/navigations/Homepage";
+import Aboutuspage from "./components/navigations/Aboutuspage";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path={Routingdata.LANDINGPAGE} element={<Landingpage />}>
             <Route path={Routingdata.LANDINGPAGEHOME} element={<Homepage />} />
+            <Route path={Routingdata.ABOUTUSPAGE} element={<Aboutuspage/>} />
           </Route>
         </Routes>
       </HashRouter>

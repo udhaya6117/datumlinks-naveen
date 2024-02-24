@@ -1,10 +1,18 @@
 /* hemopage desing */
 
 .hero-contect {
-  display: flex;
+  display: grid;
+  grid-template-columns: 69% 31%;
   height: 280px;
-  align-items: flex-end;
-  position: relative;
+}
+.positionfortitleheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 100%;
+}
+.positionfortitleheader p {
+  margin-bottom: 50px;
 }
 
 .hero-contect .brands-crafting {
@@ -16,17 +24,15 @@
   line-height: normal;
 }
 
+
+
 .hero-contect .paragaraf-detatils {
-  position: absolute;
-  color: #212121;
   font-family: "Manrope-Medium";
-  font-size: 20px;
-  font-style: normal;
   font-weight: 500;
+  font-size: 20px;
+  color: #212121;
+  font-style: normal;
   line-height: normal;
-  width: 345px;
-  right: 20px;
-  bottom: 50px;
 }
 
 .main-img {
@@ -223,7 +229,6 @@
   justify-content: center;
 }
 
-
 .ImageList-gap {
   display: grid;
   gap: 0px !important;
@@ -418,15 +423,15 @@
   margin-top: 50px;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  padding: 30px 0px ;
+  padding: 30px 0px;
 }
 
-.contantus-content div{
+.contantus-content div {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.contantus-content div:nth-child(4){
+.contantus-content div:nth-child(4) {
   text-align: end;
 }
 
@@ -446,4 +451,43 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+/* ============= aboutus page ============== */
+
+.hero-contect-abouts{
+  display: grid ;
+  grid-template-columns: 60% 40%;
+  height: 200px;
+}
+
+.hero-contect-abouts .brands-crafting .positionfortitleheader-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+ 
+}
+.hero-contect-abouts .brands-crafting .positionfortitleheader-2 text{
+  font-size: 80px;
+  font-weight: 500;
+  color: #212121;
+  font-style: normal;
+  line-height: normal;
+  font-family: "Manrope-Bold";
+}
+.hero-contect-abouts  .paragaraf-detatils {
+  font-family: "Manrope-Medium";
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+  font-style: normal;
+  line-height: normal;
+}
+
+.aboutusmain-img{
+  margin-top: 40px;
+}
+.aboutusmain-img img{
+  width: 100%;
 }

@@ -1,6 +1,12 @@
 import React from "react";
 import "../../components/navigations/Childcomponents.css";
-import { Container, Dialog, DialogContent, DialogContentText, DialogTitle } from "@mui/material";
+import {
+  Container,
+  Dialog,
+  DialogContent,
+  DialogContentText,
+  DialogTitle,
+} from "@mui/material";
 import mainimg from "../../img/hemopage-imgs/Mask group.png";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import IconButton from "@mui/material/IconButton";
@@ -73,12 +79,18 @@ const Homepage = () => {
       <Container>
         <div className="hero-contect">
           <div className="brands-crafting">
-            <text style={{ display: "block" }}>Crafting Brands</text>
-            <text style={{ display: "block" }}>and digital experienes</text>
+            <div className="positionfortitleheader">
+              <text style={{ display: "block" }}>Crafting Brands</text>
+              <text style={{ display: "block" }}>and digital experienes</text>
+            </div>
           </div>
           <div className="paragaraf-detatils">
-            We are an unusual digital agency focusing on transforming your
-            vision into a captivation digital experience
+            <div className="positionfortitleheader">
+              <p>
+                We are an unusual digital agency focusing on transforming your
+                vision into a captivation digital experience
+              </p>
+            </div>
           </div>
         </div>
       </Container>
@@ -573,58 +585,6 @@ const Homepage = () => {
             </div>
           </div>
         </Container>
-      </div>
-      <div id="footer" className="footer">
-        <Container>
-          <div className="logo-footer">
-            <img src={logo} alt="" />
-          </div>
-          <div className="project-text">
-            <li>
-              <img src={dot} alt="" />
-              Your idea deserves better
-            </li>
-            <h1>
-              Let's start a project{" "}
-              <ArrowOutwardIcon
-                className="icon-project"
-                sx={{ fontSize: 80 }}
-              />
-            </h1>
-          </div>
-
-          <div className="contantsus-details">
-            <Divider />
-            <div className="contantus-content">
-              <div>
-                <label>Reach Us</label>
-                <text>+1 (705) 996-4899</text>
-                <text>+91 9754836466</text>
-              </div>
-              <div>
-              <label>Start a coversation</label>
-                <text>Work@Outline2design.com</text>
-              </div>
-              <div>
-              <label>2024 Datum link inc, All rights reserved.</label>
-                <text>Privacy Policy</text>
-              </div>
-              <div>
-              <label>Social</label>
-                <text>Facebook</text>
-                <text>Instagram</text>
-                <text>X</text>
-              </div>
-            </div>
-          </div>
-        </Container>
-      </div>
-      <div className="resposiveview">
-      <div className="dailog-box">
-         <div className="dailog-content">
-         No mobile view, only accessible in desktop mode currently.
-         </div>
-      </div>
       </div>
     </div>
   );

@@ -491,3 +491,236 @@
 .aboutusmain-img img{
   width: 100%;
 }
+
+.aside-content{
+margin-top: 40px;
+}
+
+.aside-splited{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.content-foraboutuspage{
+  display: grid;
+  grid-template-columns: 49% 49%;
+  gap: 11px;
+}
+
+.content-foraboutuspage div{
+  font-family: "Manrope-Medium";
+  font-size: 15px;
+} 
+
+.WhychooseUS-block{
+margin-top: 50px;
+}
+
+.splites-thebox-WhychooseUS{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.img-whychooseus img{
+   width: 100%;
+}
+
+.content-whychooseus{
+  padding: 20px;
+}
+
+.content-whychooseus h1{
+  font-family: "Manrope-Bold";
+  font-size: 50px;
+  margin-bottom: 8px;
+}
+
+.content-whychooseus p{
+  font-family: "Manrope-Medium";
+  padding-right: 30px;
+}
+
+.content-whychooseus text{
+  font-family: "Manrope-Bold";
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.missionandvission-block{
+  margin-top: 40px;
+}
+
+.splite-missionandvission-block{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.Our-statistics-block{
+  margin-top: 40px;
+}
+
+.splite-Our-statistics-block{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.splite-Our-statistics-block div h1{
+  font-family: "Manrope-Bold";
+  font-size: 60px;
+  margin: 0px;
+}
+
+.splite-Our-statistics-block div p{
+  font-family: "Manrope-Medium";
+  font-size: 15px;
+  padding-right: 30px;
+  margin: 0px;
+}
+
+.img-Our-statistics-block{
+  background-color: #D8DDF7;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px;
+  margin-top: 30px;
+}
+
+.img-Our-statistics-block img{
+  width: 50%;
+}
+
+.header-titile-services-page{
+  display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.header-titile-services-page h1{
+  font-family: "Manrope-Regular";
+  font-size: 88px;
+  font-weight: 400;
+  margin: 50px 0px;
+  line-height: 85px;
+}
+.header-titile-services-page h1 text{
+  font-family: "Manrope-Regular";
+  font-weight: 700;
+}
+.header-titile-services-page img{
+  width: 50px;
+  margin-left: 25px;
+} 
+
+
+/* ====================== Resoures Page =================== */
+
+.splited-Resourcespage-sideimg-block{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+
+.img-side-Resourcespage img{
+  width: 100%;
+}
+
+.img-group-Resourcespage{
+  width: 50%;
+  margin: 10px 0px;
+  margin-bottom: 20px;
+}
+
+.img-group-Resourcespage img{
+  width: 100%;
+}
+
+.content-Resourcespage h1{
+  font-family: "Manrope-Bold";
+  font-size: 60px;
+  margin-top: 70px;
+  margin-bottom: 0px;
+}
+
+.content-Resourcespage p{
+  font-family: "Manrope-Medium";
+    padding-right: 30px;
+    margin: 35px 0px;
+    margin-top: 10px
+}
+
+.titile-workdetails-h1 {
+  font-family: "Manrope-SemiBold";
+  font-size: 70px;
+  margin-bottom: 0px;
+}
+
+.main-img-workdetails{
+  margin-top: 70px;
+}
+
+.main-img-workdetails img{
+  width: 100%;
+}
+
+.size-box{
+  width: 50%;
+}
+
+.content-in-para-workdetails{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+  padding-top: 50px;
+}
+
+.content-in-para-workdetails text{
+  font-family: "Manrope-SemiBold";
+  color: #9D9D9D;
+  
+}
+.content-in-para-workdetails text:nth-child(1){
+  font-size: 13px;
+}
+
+.content-in-para-workdetails p{
+  font-family: "Manrope-SemiBold";
+  margin-bottom: 30px;
+}
+
+.splited-details{
+  display: grid;
+  grid-template-columns: 49% 49%;
+  gap: 21px;
+  margin-top: 35px;
+}
+
+
+.splited-details img{
+  width: 100%;
+  border-radius: 22px;
+}
+
+.splited-details h2{
+  font-family: "Manrope-SemiBold";
+  font-size: 30px;
+  text-align: center;
+  margin: 16px 0px;
+}
+
+.splited-details p{
+  font-family: "Manrope-Regular";
+  padding-right: 30px;
+  font-weight: 500;
+}
+
+.challenges-1-img{
+  margin-top: 50px;
+}
+
+.challenges-1-img img{
+  width:100% ;
+}
+
+.simalar-block{
+  margin-top: 30px;
+}

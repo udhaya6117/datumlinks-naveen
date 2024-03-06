@@ -16,6 +16,8 @@ const Landingpageheader = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const currenturl = location.pathname;
+  console.log("currenturl",currenturl)
+
   return (
     <AppBar
       position="static"
@@ -27,8 +29,8 @@ const Landingpageheader = () => {
             <img src={logo2} alt="logo" />
           </Typography>
           <div className="header-navigations">
-            <div>
-              <text
+            <div className={currenturl === Routingdata.LANDINGPAGEHOME ? "active-div" : "inactive-div"}>
+              <text 
                 onClick={() => {
                   navigate(Routingdata.LANDINGPAGEHOME);
                 }}
@@ -36,7 +38,7 @@ const Landingpageheader = () => {
                 Home
               </text>
             </div>
-            <div>
+            <div className={currenturl === Routingdata.ABOUTUSPAGE ? "active-div" : "inactive-div"}>
               <text
                 onClick={() => {
                   navigate(Routingdata.ABOUTUSPAGE);
@@ -45,7 +47,7 @@ const Landingpageheader = () => {
                 About
               </text>
             </div>
-            <div>
+            <div className={currenturl === Routingdata.SERVICESPAGE ? "active-div" : "inactive-div"}>
               <text
                 onClick={() => {
                   navigate(Routingdata.SERVICESPAGE);
@@ -54,7 +56,7 @@ const Landingpageheader = () => {
                 Services
               </text>
             </div>
-            <div>
+            <div className={currenturl === Routingdata.WORKPAGE || currenturl === Routingdata.WORKDETAILSPAGE ? "active-div" : "inactive-div"}>
               <text
                 onClick={() => {
                   navigate(Routingdata.WORKPAGE);
@@ -63,7 +65,7 @@ const Landingpageheader = () => {
                 Work
               </text>
             </div>
-            <div>
+            <div className={currenturl === Routingdata.CONTACTUSPAGE ? "active-div" : "inactive-div"}>
               <text
                 onClick={() => {
                   navigate(Routingdata.CONTACTUSPAGE);
@@ -72,7 +74,16 @@ const Landingpageheader = () => {
                 Contact
               </text>
             </div>
-            <div>
+            <div className={currenturl === Routingdata.RESOURCES ? "active-div" : "inactive-div"}>
+              <text
+                onClick={() => {
+                  navigate(Routingdata.RESOURCES);
+                }}
+              >
+                Resources
+              </text>
+            </div>
+            <div className={currenturl === Routingdata.RESOURCES ? "active-div" : "inactive-div"}>
               <text
                 onClick={() => {
                   navigate(Routingdata.RESOURCES);

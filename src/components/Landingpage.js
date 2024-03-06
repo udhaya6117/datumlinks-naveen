@@ -6,17 +6,24 @@ import { Container, Divider } from "@mui/material";
 import logo from "../img/logo.png";
 import dot from "../img/Ellipse 5.png";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
+import { useLocation } from "react-router-dom";
+import { Routingdata } from "./Routingdata";
+
+
 
 const Landingpage = () => {
+  const location = useLocation();
+  const currentUrl = location.pathname;
+
   return (
-    <div>
-      <div>
+    <div style={{height:"100%"}}>
+      <div style={{position:"fixed",top:"0%",width:"100%",backgroundColor:"#F3F3F3",zIndex:"22"}}>
         <Landingpageheader />
       </div>
-      <div>
+      <div style={{ marginTop: "100px"}}>
         <Outlet />
       </div>
-      <div>
+      {currentUrl === Routingdata.CONTACTUSPAGE ? null :(<div>
         <div id="footer" className="footer">
           <Container>
             <div className="logo-footer">
@@ -62,7 +69,7 @@ const Landingpage = () => {
             </div>
           </Container>
         </div>
-      </div>
+      </div>)}
       <div className="resposiveview">
         <div className="dailog-box">
           <div className="dailog-content">

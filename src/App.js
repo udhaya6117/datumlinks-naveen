@@ -9,6 +9,7 @@ import Servicespage from "./components/navigations/Servicespage";
 import Workpage from "./components/navigations/Workpage";
 import Resourcespage from "./components/navigations/Resourcespage"
 import WorkDetails from "./components/navigations/WorkDetails";
+import Contactuspage from "./components/navigations/Contactuspage";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path={Routingdata.WORKPAGE} element={<Workpage/>} />
             <Route path={Routingdata.RESOURCES} element={<Resourcespage/>} />
             <Route path={Routingdata.WORKDETAILSPAGE} element={<WorkDetails/>} />
+            <Route path={Routingdata.CONTACTUSPAGE} element={<Contactuspage/>} />
           </Route>
         </Routes>
       </HashRouter>

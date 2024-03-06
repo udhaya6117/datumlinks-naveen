@@ -724,3 +724,86 @@ margin-top: 50px;
 .simalar-block{
   margin-top: 30px;
 }
+
+/* ================  Contactuspage  =================== */
+
+.contantuspage-block{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  height: 100vh;
+}
+
+.contantuspage-img img{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.contect-img-contactus{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 20px 30px;
+}
+
+.titile-contactuspage{
+  font-family: "Manrope-Bold";
+  line-height: 80px;
+  font-size: 45px;
+}
+.titile-contactuspage h1{
+  margin: 0px;
+  color: #212121;
+}
+
+.part-1-contactus p{
+  font-family: "Manrope-Medium";
+  font-size: 15px;
+  padding-right: 30px;
+}
+
+.emailandphone-contantus{
+  margin: 15px 0px;
+}
+
+.emailandphone-contantus h3{
+  font-family: "Manrope-Bold";
+  margin-bottom: 5px;
+  color: #212121;
+}
+.emailandphone-contantus text{
+   font-family: "Manrope-SemiBold";
+   color: #707070;
+}
+
+.part-1-contactus{
+  display: flex;
+  flex-direction: column;
+}
+
+.sizeof-contact-number{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+
+.sizeof-contact-number input{
+  width: 100%;
+  height: 20px;
+  background-color: #E9E9E9;
+  border: 1px solid #BEC2CD;
+  border-radius: 12px;
+  padding: 10px;
+}
+.sizeof-contact-number textarea{
+  width: 100% !important;
+  padding: 10px;
+  background-color: #E9E9E9;
+  border: 1px solid #BEC2CD;
+  border-radius: 12px;
+}
+.inputs-content{
+  display: grid;
+  place-items: center;
+}

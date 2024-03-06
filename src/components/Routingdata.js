@@ -1,6 +1,6 @@
 export const Routingdata = {
-    LANDINGPAGE:"/",
-    LANDINGPAGEHOME:"",
+    LANDINGPAGE:"",
+    LANDINGPAGEHOME:"/",
     ABOUTUSPAGE:"/aboutus",
     SERVICESPAGE:"/services",
     WORKPAGE:"/work",

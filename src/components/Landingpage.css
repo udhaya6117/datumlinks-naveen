@@ -51,7 +51,7 @@
     font-size: 14px;
     font-weight: 600;
 }
-.header-navigations div::after{
+.header-navigations .inactive-div::after{
     content: "";
     position: absolute;
     bottom: -30%;
@@ -63,8 +63,20 @@
     background-color: #333333;
 }
 
-.header-navigations div:hover::after{
+.header-navigations .inactive-div:hover::after{
   width: 30%;
+}
+
+.header-navigations .active-div::after{
+    content: "";
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    height: 2px;
+    transition: 0.3s;
+    background-color: #333333;
 }
 
 .dailog-box{

@@ -64,12 +64,22 @@ const Landingpageheader = () => {
               </text>
             </div>
             <div>
-              <text>Contact</text>
+              <text
+                onClick={() => {
+                  navigate(Routingdata.CONTACTUSPAGE);
+                }}
+              >
+                Contact
+              </text>
             </div>
             <div>
-              <text  onClick={() => {
+              <text
+                onClick={() => {
                   navigate(Routingdata.RESOURCES);
-                }}>Resources</text>
+                }}
+              >
+                Resources
+              </text>
             </div>
           </div>
           <div className="btn-for-quote">

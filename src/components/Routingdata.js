@@ -5,5 +5,6 @@ export const Routingdata = {
     SERVICESPAGE:"/services",
     WORKPAGE:"/work",
     RESOURCES:"/Resources",
-    WORKDETAILSPAGE:"/work/workdetails"
+    WORKDETAILSPAGE:"/work/workdetails",
+    CONTACTUSPAGE:"/contactus"
 }

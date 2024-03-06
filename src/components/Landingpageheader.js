@@ -83,6 +83,15 @@ const Landingpageheader = () => {
                 Resources
               </text>
             </div>
+            <div className={currenturl === Routingdata.RESOURCES ? "active-div" : "inactive-div"}>
+              <text
+                onClick={() => {
+                  navigate(Routingdata.RESOURCES);
+                }}
+              >
+                Resources
+              </text>
+            </div>
           </div>
           <div className="btn-for-quote">
             <button>Get a quote</button>
